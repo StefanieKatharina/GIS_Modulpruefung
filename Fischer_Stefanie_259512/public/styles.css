@@ -1,0 +1,108 @@
+/**Style index.html*/
+
+#box1 {
+    width: 1450px;
+    height: 900px;
+    background-color: white;
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+
+  #game-button{
+      position:relative;
+      top: 450px;
+      left: 620px; 
+        box-shadow: 6px 6px 3px 1px #3e7327;
+        background:linear-gradient(to bottom, #77b55a 5%, #649949 100%);
+        background-color:#77b55a;
+        border-radius:15px;
+        border:1px solid #244514;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Impact;
+        font-size:28px;
+        padding:14px 42px;
+        text-decoration:none;
+        text-shadow:7px 5px 9px #61824b;
+    }
+   
+    
+  
+
+#time-display{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 30px;
+position:relative;
+top: 600px;
+left: 500px;
+
+}
+
+
+#game-grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 400px;
+    
+}
+
+#game-grid > img {
+    border: 1px solid rgb(37, 92, 15);
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    position: relative;
+    top: 100px;
+    left:530px;
+}
+
+#game-grid > img.hided {
+    background: rgb(105, 184, 98);
+}
+
+/**Match*/
+#game-grid > img.solved {
+    background: rgb(19, 65, 25);
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid rgb(15, 39, 92);
+    text-align: left;
+    padding: 8px;
+}
+
+tr:first-child {
+    max-width: 80px;
+}
+
+tr:nth-child(even) {
+    background-color: #d42424;
+}
+
+
+
+/**Style highscore.html*/
+
+h1{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 50px;
+text-align: center;
+}
+
+#winnerpicture{
+    height:250px;
+    width:250px;
+    position:relative;
+    left:590px;
+
+
+}

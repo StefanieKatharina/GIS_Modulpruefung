@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+                    
+    "target": "es5",                        
+    "module": "commonjs",                        
+    "declaration": true,                        
+  
+    "sourceMap": true,                         
+    "strict": true,                                
+    "types": [
+      "jquery"
+    ],                                
+    "esModuleInterop": true,                        
+    "skipLibCheck": true,                          
+    "forceConsistentCasingInFileNames": true        
+  }
+}
